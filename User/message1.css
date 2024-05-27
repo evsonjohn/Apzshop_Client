@@ -1,0 +1,33 @@
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .message-container {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            display: none; /* Hide the container initially */
+        }
+
+        .success {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .error {
+            background-color: #f44336;
+            color: white;
+        }
